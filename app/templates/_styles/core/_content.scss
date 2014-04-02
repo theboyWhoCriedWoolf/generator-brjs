@@ -1,0 +1,65 @@
+// *************************************
+//
+//   Content
+//   -> Typography
+//
+// *************************************
+
+// -------------------------------------
+//   Headings
+// -------------------------------------
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: $c-header-fontFamily;
+  font-weight: bold;
+}
+
+h1, .c-h1, %c-h1 {}
+
+h2, .c-h2, %c-h2{}
+
+
+h3, .c-h3, %c-h3{}
+
+
+h4, .c-h4, %c-h4{}
+
+
+h5, .c-h5, %c-h5{}
+
+
+h6, .c-h6, %c-h6{}
+
+
+p, .c-p, %c-p { }
+
+
+// -------------------------------------
+//   Utilities
+// -------------------------------------
+
+%c-center, .c-center {
+  text-align: center;
+}
+
+%c-condense, .c-condense {
+  font-size: 85%;
+}
+
+%c-lead, .c-lead {
+  font-size: 125%;
+}
+
+%c-shout, .c-shout {
+  text-transform: uppercase;
+}
+
+%c-strong, .c-strong {
+  font-weight: bold;
+}
+
+%c-underline, .c-underline {
+  text-decoration: underline;
+}
+

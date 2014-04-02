@@ -1,0 +1,12 @@
+html {
+	font-family: 'baby-bear';
+	
+	@include breakpoint ($mama-bear) {
+		font-family: 'mama-bear';
+	}
+
+	@include breakpoint ($papa-bear) {
+		font-family: 'papa-bear';
+	}
+}
+

@@ -1,0 +1,56 @@
+// *************************************
+//
+//   Settings
+//   -> Fonts, Variables
+//
+// *************************************
+
+// -------------------------------------
+//   @font-face
+// -------------------------------------
+
+// ...
+
+// -------------------------------------
+//   Variables
+// -------------------------------------
+
+// ----- Base Colors ----- //
+
+$base-background: #fff;
+$base-color: #00489b;
+$base-link-color: #00489b;
+
+$theme-green: #5db748;
+$theme-yellow: #f6b707;
+$theme-red: #c50540;
+$theme-purple: #7d357d;
+
+// ----- Base Borders & Box Shadows ----- //
+
+$base-border: 1px solid $base-color;
+$base-borderRadius: 3px;
+$base-boxShadow: 0 1px 2px rgba($base-color, 0.25);
+
+// ----- Base Content ----- //
+
+$base-fontFamily: "archermedium",serif;
+$base-fontSize: 62.5%;
+$base-lineHeight: 1.5;
+
+// ----- Base Layout ----- //
+
+$base-whitespace: 20px;
+
+// ----- Content ----- //
+
+$c-header-fontFamily: "archerbold",serif;
+
+// ----- Layout ----- //
+
+$l-maxWidthPapa: 950px;
+$l-maxWidthMama: 640px;
+
+// ----- Modules ----- //
+
+$btn-fontFamily: "archerbold",serif;

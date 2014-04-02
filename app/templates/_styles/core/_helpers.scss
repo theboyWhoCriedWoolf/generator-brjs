@@ -1,0 +1,54 @@
+// *************************************
+//
+//   Helpers
+//   -> Extends, Functions, Mixins, Animations
+//
+// *************************************
+
+// -------------------------------------
+//   Extends
+// -------------------------------------
+
+
+// -------------------------------------
+//   Functions
+// -------------------------------------
+
+
+// -------------------------------------
+//   Mixins
+// -------------------------------------
+
+// @mixin font-size($size: 1.6) {
+//   font-size: ($size * 10) + px;
+//   font-size: $size + rem;
+// }
+
+@mixin font-size($size:1.6, $line: $size * 1.5){
+    font-size:   ($size * 10) + px;
+    line-height: ($line * 10) + px;
+    font-size:   $size + rem;
+  	line-height: $line + rem;
+}
+
+
+@mixin retina-background($img) {
+   @include breakpoint($double-bear) {
+    	background: $img;
+    	background-size: contain !important;
+	}
+}
+
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; } 
+}
+
+
+// -------------------------------------
+//   Animations
+// -------------------------------------
+

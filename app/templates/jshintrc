@@ -1,0 +1,17 @@
+{
+    "node": true,
+    "smarttabs": true,
+    "jquery": true,
+    "-W099"   : true,
+    "sub" : true,
+     "browser": true,
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "quotmark": "single",
+    "unused": true,
+    "strict": true
+}

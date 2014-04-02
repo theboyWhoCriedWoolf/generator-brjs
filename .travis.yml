@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-brjs' ]; then cd .. && eval "mv $currentfolder generator-brjs" && cd generator-brjs; fi
+
